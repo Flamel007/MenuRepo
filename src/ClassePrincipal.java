@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ClassePrincipal {
 
@@ -16,7 +17,15 @@ public class ClassePrincipal {
 	
 	public static void main(String[] args) {
 
+		Scanner sc = new Scanner(System.in);
 		
+		int opcao;
+		
+		do{
+			
+			System.out.println("MENU DE OPÇÃO");
+			
+		}while(opcao != 3);
 	}
 
 }
